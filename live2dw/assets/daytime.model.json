@@ -1,0 +1,62 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"daytime.moc",
+	"textures":[
+		"daytime.1024/texture_00.png",
+		"daytime.1024/texture_01.png",
+		"daytime.1024/texture_02.png",
+		"daytime.1024/texture_03.png",
+		"daytime.1024/texture_04.png"
+	],
+	"layout":
+	{
+		"center_x":0,
+		"y":1.2,
+		"width":2.9
+	},
+	"expressions":
+	[
+		{"name":"f01","file":"motions/expressions/f01.exp.json"}
+	],
+	"hit_areas":
+	[
+		{"name":"head", "id":"D_A.00"},
+		{"name":"body", "id":"D_A.01"}
+	],
+	"motions":{
+		"shake":[
+			{"file":"motions/shake/shake01.mtn"},
+			{"file":"motions/shake/shake02.mtn"}
+		],
+		"tap_head":[
+			{"file":"motions/tap_head/tap02.mtn"},
+			{"file":"motions/tap_head/tap03.mtn"},
+			{"file":"motions/tap_head/tap05.mtn"},
+			{"file":"motions/tap_head/tap09.mtn"},
+			{"file":"motions/tap_head/tap15.mtn"}
+		],
+		"tap_body":[
+			{"file":"motions/tap_body/tap01.mtn"},
+			{"file":"motions/tap_body/tap04.mtn"},
+			{"file":"motions/tap_body/tap06.mtn"},
+			{"file":"motions/tap_body/tap07.mtn"},
+			{"file":"motions/tap_body/tap08.mtn"},
+			{"file":"motions/tap_body/tap10.mtn"},
+			{"file":"motions/tap_body/tap11.mtn"},
+			{"file":"motions/tap_body/tap12.mtn"},
+			{"file":"motions/tap_body/tap13.mtn"},
+			{"file":"motions/tap_body/tap14.mtn"},
+			{"file":"motions/tap_body/tap16.mtn"},
+			{"file":"motions/tap_body/tap17.mtn"},
+			{"file":"motions/tap_body/tap18.mtn"}
+		],
+		"idle":[
+			{"file":"motions/idle/idle01.mtn"},
+			{"file":"motions/idle/idle02.mtn"},
+			{"file":"motions/idle/idle03.mtn"},
+			{"file":"motions/idle/idle04.mtn"},
+			{"file":"motions/idle/idle05.mtn"}
+		]
+	},
+	"physics":"physics.json"
+}
